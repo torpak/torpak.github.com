@@ -1,0 +1,91 @@
+CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>
+Ibis and Baboon: {{ page.title }}
+</title>
+<link href="/atom.xml" rel="alternate" title="WeaselWords" type="application/atom+xml" /><!-- syntax highlighting CSS -->
+<link rel="stylesheet" href="/css/syntax.css" type="text/css" /><!-- Homepage CSS -->
+<link rel="stylesheet" href="/css/twentyten.css" type="text/css" media="screen, projection" />
+</head>
+<body class="home blog">
+<div class="hfeed" id="wrapper">
+<div id="header">
+<div id="masthead">
+<div id="branding" role="banner">
+<h1 id="site-title">
+<span><a href="/" title="WeaselWords" rel="home">WeaselWords</a></span>
+</h1>
+<div id="site-description">
+Janico Greifenberg's blog about the exact art and subtle science of computer programming
+</div><!--img src="/images/hatusu-temple.jpeg" width="940" height="138" alt="" /-->
+</div><!-- #branding -->
+</div><!-- #masthead -->
+</div><!-- #header -->
+<div id="main">
+<div id="container">
+<div id="content" role="main">
+{{ content }}
+</div>
+</div>
+<div id="primary">
+<div class="widget">
+<h3 class="widget-title">
+Recent Posts
+</h3>
+<ul>
+<li style="list-style: none">{% for post in site.posts limit:5 %}
+</li>
+<li>
+<a href="{{post.url}}">{{ post.title }}</a>
+</li>
+<li style="list-style: none">{% endfor %}
+</li>
+</ul>
+</div>
+<div class="widget">
+<h3 class="widget-title">
+<a href="/archive.html">Archive</a>
+</h3>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="contact">
+<p>
+Arne Brix
+</p>
+</div>
+<div class="contact">
+<p>
+<a href="/about.html">About</a>
+</p>
+</div>
+<div class="contact">
+<p>
+<a href="mailto:would@you.like.to.know">Email</a>
+</p>
+</div>
+<div class="contact">
+<p>
+<a href="http://github.com/torpak">GitHub</a>
+</p>
+</div>
+<div class="contact">
+<p>
+<a href="/atom.xml" title="Subscribe to the Atom feed">Atom Feed</a>
+</p>
+</div>
+<div class="license">
+<p>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/de/88x31.png" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/">Creative Commons Attribution-ShareAlike 3.0 Germany License</a>.
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
