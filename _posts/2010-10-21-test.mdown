@@ -1,8 +1,10 @@
 ---
-Testing
+title: Testing
+layout: post
 ---
+
 this is a test post
-* one
-* 2
-* trois
+ * one
+ * 2
+ * trois
 
