@@ -1,5 +1,6 @@
 ---
-Testing
+title: Testing
+layout: post
 ---
 this is a test post
 * one
